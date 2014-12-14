@@ -1,0 +1,5 @@
+whatt happens when you initialize a repository? Why do you need to do it?
+- it creates a empty git repo and it acts a storage for all commits
+
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+- offers a kind of temp storage before commiting files
