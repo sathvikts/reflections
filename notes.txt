@@ -42,3 +42,7 @@ git merge master coins - creates a new commit and it has two parent commits each
 git show commit_id - shows what changes commit_id introduced compared to its parent
 git branch -d coins
 git log -n 1
+git remote - to view all the remotes
+git remote add origin url - add a remote named "origin" at "url"
+git remote -v
+git push origin master - push all commits to origin
