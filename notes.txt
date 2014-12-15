@@ -48,3 +48,6 @@ git remote add origin url - add a remote named "origin" at "url"
 git remote -v
 git push origin master - push all commits to origin
 git remote set-url origin new_url
+git pull remote master
+
+git clone url
