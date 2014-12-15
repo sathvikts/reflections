@@ -1,0 +1,44 @@
+version control
+- refers to any system that allows for systematic versioning of content
+- create,store and access different versions of same docs,code or any content
+- ex: manual saving, dropbox, google docs, wikipedia, git, hg, svn, cvs
+
+- in git user committed checkpoints are called commits
+- commits can be for:
+	fix off bug ine by one
+	add a new cool feature
+	improve user requirement
+
+staging area always contains the files same as latest commit
+you have add manually do git add file1 if you change file1 in wd and want to addit to sd
+
+git config --global color.ui auto
+git config --global core.editor "'C:/Program Files/Sublime Text2/sublime_text.exe' -n -w"
+git config --global push.default upstream
+git config --global merge.conflictstyle diff3
+
+git log --stat
+git diff id1 id2 
+git config --global user.name "karthik"
+git config --global user.email "shivakarthik8@gmail.com"
+git init
+git status
+git add file1 - adds file1 to staging area
+git rm --cached file1 - unstages file1
+git commit
+git diff - compares files between working dir and staging dir
+git diff --staged - compares files between staging srea and repo
+git reser --hard - discard any changes either in working dir or staging dir
+git branch
+git branch branch_name
+git checkout branch_name
+git log --graph --oneline branch1 branch2
+
+giit checkout commit_id
+git branch branch_name,git checkout branch_name or git checkout -b branch_name
+
+git merge master coins - creates a new commit and it has two parent commits each from master and coins, since it is executed in master branch, master label is attached with latest created new commit
+
+git show commit_id - shows what changes commit_id introduced compared to its parent
+git branch -d coins
+git log -n 1
