@@ -16,11 +16,12 @@ git config --global color.ui auto
 git config --global core.editor "'C:/Program Files/Sublime Text2/sublime_text.exe' -n -w"
 git config --global push.default upstream
 git config --global merge.conflictstyle diff3
-
-git log --stat
-git diff id1 id2 
 git config --global user.name "karthik"
 git config --global user.email "shivakarthik8@gmail.com"
+git config --global credential.helper wincred
+
+git log --stat
+git diff id1 id2
 git init
 git status
 git add file1 - adds file1 to staging area
@@ -34,12 +35,11 @@ git branch branch_name
 git checkout branch_name
 git log --graph --oneline branch1 branch2
 
-giit checkout commit_id
+git checkout commit_id
 git branch branch_name,git checkout branch_name or git checkout -b branch_name
 
 git merge master coins - creates a new commit and it has two parent commits each from master and coins, since it is executed in master branch, master label is attached with latest created new commit
 
-git config --global credential.helper wincred
 git show commit_id - shows what changes commit_id introduced compared to its parent
 git branch -d coins
 git log -n 1
@@ -53,3 +53,5 @@ git pull origin master - what happens is git fetch origin and git merge master o
 git clone url
 git fetch origin - creates a new branch for all the new commits in remote
 git status - compares local master with local origin/master
+
+pull request - asking a branch for merging with another branch
