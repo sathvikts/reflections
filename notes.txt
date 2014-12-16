@@ -51,5 +51,5 @@ git remote set-url origin new_url
 git pull remote master - what happens is git fetch origin and git merge master origin/master
 
 git clone url
-git fetch origin - creates a new branch for all the new commits from remote
+git fetch origin - creates a new branch for all the new commits in remote
 git status - compares local master with local origin/master
