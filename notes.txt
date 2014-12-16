@@ -28,7 +28,7 @@ git rm --cached file1 - unstages file1
 git commit
 git diff - compares files between working dir and staging dir
 git diff --staged - compares files between staging srea and repo
-git reser --hard - discard any changes either in working dir or staging dir
+git reset --hard - discard any changes either in working dir or staging dir
 git branch
 git branch branch_name
 git checkout branch_name
