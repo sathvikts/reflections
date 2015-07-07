@@ -1,4 +1,7 @@
+Hi Its me Sathvik
+
 version control
+
 - refers to any system that allows for systematic versioning of content
 - create,store and access different versions of same docs,code or any content
 - ex: manual saving, dropbox, google docs, wikipedia, git, hg, svn, cvs
